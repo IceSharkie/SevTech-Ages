@@ -8,13 +8,120 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 ---------------------------------------------------------------------
 
+3.2.2
+
+Features:
+* Added Traditional Chinese translations
+
+Bug Fixes:
+* Added missing Russian translation
+
+Mod Updates:
+* Forge (14.23.5.2854)
+    * Fixes a recent security vulnerability affecting Minecraft. Read more here regarding clients: http://redsto.ne/java
+
+---------------------------------------------------------------------
+
+3.2.1
+
+Bug Fixes:
+* Removed Sevadus skull drop to prevent potential lag
+
+---------------------------------------------------------------------
+
 3.2.0
+
+Enhancements:
+* Add tooltips for Rustic bees
+* Added Primal's Stacked Logs and Charcoal Pit mechanics
+* Increased Rustic Apiaries crop aging frequency
+* Add Rustic bee advancement
+* Move Rustic bees to age 1 from age 2
+* Add Twilight Forest trees to Bonsai pots
+* Add liveroot and liveroot block conversion recipes
+* Add liveroot to Twilight Forest loot chests
+* Staged loot in loot tables (chests, etc)
+* Add trollber to Twilight Forest loot tables
+* Enabled fishing!
+
+Bug Fixes:
+* Correct rat's meat drops & added wolf meat drop to dire wolf
+* Create recipes for Abyssalcraft's animated darklands log
+* Remove "WIP" natura doors
+* Rustic liquids appearing too early
+* Add Primal's Yew Stick to stickWood oredict
+* Enabled AE2 paint balls
+* Added Amethyst, Cobalt, and Ardite to prospectors detection lists
+
+Mods Added:
+* ZenLoot
+
+Mod Updates:
+* ExtraPlanets (0.5.6 -> 0.7.0)
+* Galacticraft (4.0.2.236 -> 4.0.2.280)
+    * Core, Planets, & MicdoodleCore
+* MJRLegendsLib (1.1.8 -> 1.2.0)
+* SevPatches (1.5-6 -> 1.7-8)
+* SevTweaks (0.3.1-25 -> 0.4.0-1)
+* Wall-Jump! (1.2.3 -> 1.3.2)
+
+---------------------------------------------------------------------
+
+3.1.7
+
+Enhancements:
+* Code cleanup
+* Tweaked tooltip grammar and lengths
+
+Mods Updated:
+* Bring Bedrock Back (0.0.1 -> 0.0.4)
+
+---------------------------------------------------------------------
+
+3.1.6 Hotfix 1
+
+Bug Fixes:
+* Fixed unintentional change to shoggoth generation chance in swamps
+* Resolved potential issue with bedrock generation in unintended dimensions
+
+---------------------------------------------------------------------
+
+3.1.6
+
+Mods Added:
+* Bring Back Bedrock (0.0.1)
+    * A HUGE thank you to JayJay for making this for us!
+    * Resolves issue introduced with latest Better Bedrock update
+
+Mods Added:
+* Corail Tombstone (4.0.0)
+
+Mods Removed:
+* Advanced Mortars
+* Tombstone: Revived
+    * Corail Tombstone is back
+
+---------------------------------------------------------------------
+
+3.1.5
+
+Mods Updated:
+* Tombstone: Revived (4.0.0-2 -> 4.0.1-3)
+    * Fixes server startup crash
+
+---------------------------------------------------------------------
+
+3.1.4
 
 Bug Fixes:
 * Correctly stage the Stray and its equipment
 * Wool being visible in the world before intended
 * Remove unnecessary imp leather drops (#4143)
 * Fixed BWM Anchor and Pulley uncraftable in stage one
+* Slime boots in conflicting stages
+* Moved Void Sack to Age 5 as the recipe reciquired items from that age
+* Staged the application of the iChisel (hitech) modifier on tinkers' tools
+* Strange mob spawn counts potentially caused by low view distance
 
 Enhancements:
 * Remove Barley Flour - Barley now produces regular flour instead
@@ -22,10 +129,62 @@ Enhancements:
 * Stop Forge logging cascading world generation
 * Adjusted the Betweenland's Boulder Sprite spawn rates
 
+Mods Added:
+* Tombstone: Revived
+
 Mod Updates:
 * AbyssalCraft (1.9.19.1)
 * AbyssalCraft Integration (1.11.2)
+* AppleSkin (1.0.9 -> 1.0.14)
+* Bedrock B Gone/Better Bedrock (5.1.11)
+* Better Foliage (2.3.1)
+    * Now works with Optifine F4 and later
+* BnBGamingCore (0.11.0 -> 0.12.0)
+* Bonsai Trees (1.1.4-b170)
+* CD4017BE Library (6.4.6 -> 6.4.18)
+* Cooking for Blockheads (6.4.70 -> 6.5.0)
+* CraftTweaker (4.1.20.57)
+* Custom Main Menu (2.0.9 -> 2.0.9.1)
+* Cyclic (1.19.11 -> 1.20.3)
+* Dark Utilities (1.8.226 -> 1.8.230)
 * Dimensional Control (2.13.0)
+* Enchantment Descriptions (1.1.15)
+* Ender Storage 1.8.+ (2.4.5.135 -> 2.4.6.137)
+* Ender Utilities (0.7.12 -> 0.7.15)
+* Extended Crafting (1.5.4 -> 1.5.6)
+* Farming for Blockheads (3.1.26 -> 3.1.28)
+* Farseek (2.3.2 -> 2.5)
+* FastWorkbench (1.7.3)
+* Game Stages (2.0.123)
+* Hunting Dimension (1.0.42)
+* Improved Backpacks (1.4.0.0 -> 1.5.0.0)
+* Immersive Engineering (0.12-92 -> 0.12-98)
+* Inductive Logistics (1.3.3 -> 1.3.4)
+* Industrial Foregoing (1.12.12-236 -> 1.12.13-237)
+* Inventory Tweaks (1.64+dev.146 -> 1.64+dev.151)
+* Iron Chests (7.0.69.845 -> 7.0.72.847)
+* KleeSlabs (5.4.11 -> 5.4.12)
+* McJtyLib (3.5.3 -> 3.5.4)
+* Modular Routers (3.2.1 -> 3.3.0-33)
+* More Overlays (1.14 -> 1.15.1)
+* Ocean Floor - Clay Sand and Dirt (1.0.1 -> 1.0.2)
+* RandomPatches (1.21.0.3 -> 1.22.0.0)
+* Reborn Storage (3.3.4.85 -> 3.3.4.1)
+* Refined Storage (1.6.14 -> 1.6.16)
+* Refined Storage Addons (0.4.4 -> 0.4.5)
+* RFTools (7.71 -> 7.73)
+* Rustic (1.1.0 -> 1.1.4)
+* SevPatches (1.4-5 -> 1.5-6)
+* Simple Storage Network (1.7.6 -> 1.7.11)
+* Steve's Carts Reborn (2.4.30.134 -> 2.4.32.137)
+* Storage Drawers (5.3.8 -> 5.4.2)
+* Thirsty Bottles (1.1.4 -> 2.0.1)
+* ViesCraft - Airships! (5.9.13 -> 5.9.16)
+* Wawla - What Are We Looking At (2.5.273 -> 2.6.275)
+* XNet (1.8.1 -> 1.8.2)
+
+Mods Removed:
+* Corail's Tombstone
 
 ---------------------------------------------------------------------
 

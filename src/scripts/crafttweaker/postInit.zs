@@ -72,7 +72,6 @@ function initItemsAndRecipesStaging() {
 	// Staging Mod's Items and Recipes
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.abyssalcraft.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.actuallyadditions.init();
-	scripts.crafttweaker.staging.itemsAndRecipes.mods.advancedmortars.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.animalium.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.antiqueatlas.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.appliedenergistics2.init();
@@ -292,6 +291,7 @@ function initIntegrations() {
 	scripts.crafttweaker.integrations.mods.astralsorcery.init();
 	scripts.crafttweaker.integrations.mods.betterwithmods.init();
 	scripts.crafttweaker.integrations.mods.bloodmagic.init.init();
+	scripts.crafttweaker.integrations.mods.bonsai.init();
 	scripts.crafttweaker.integrations.mods.chisel.init();
 	scripts.crafttweaker.integrations.mods.cyclicmagic.init();
 	scripts.crafttweaker.integrations.mods.extendedCrafting.init.init();
@@ -299,7 +299,7 @@ function initIntegrations() {
 	scripts.crafttweaker.integrations.mods.horsepower.init();
 	scripts.crafttweaker.integrations.mods.immersive.engineering.init.init();
 	scripts.crafttweaker.integrations.mods.immersive.petroleum.init();
-	scripts.crafttweaker.integrations.mods.loottweaker.init();
+	// scripts.crafttweaker.integrations.mods.loottweaker.init();
 	scripts.crafttweaker.integrations.mods.mekanism.init();
 	scripts.crafttweaker.integrations.mods.modularMachinery.init.init();
 	scripts.crafttweaker.integrations.mods.pneumaticcraft.init();
@@ -307,6 +307,7 @@ function initIntegrations() {
 	scripts.crafttweaker.integrations.mods.primalTech.init();
 	scripts.crafttweaker.integrations.mods.rustic.init();
 	scripts.crafttweaker.integrations.mods.tinkers.init.init();
+	scripts.crafttweaker.integrations.mods.zenloot.init();
 }
 
 function initEvents() {

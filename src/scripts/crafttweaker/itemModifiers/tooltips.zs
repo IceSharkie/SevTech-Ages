@@ -347,7 +347,8 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	],
 
 	<ceramics:clay_bucket:0>: [
-		format.red("Will literally melt away after transporting HOT liquid")
+		format.red("Will literally melt away after"),
+		format.red("transporting HOT liquid")
 	],
 
 	<progressiontweaks:spear:0>: [
@@ -557,7 +558,7 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 
 	// Space!
 	<buildcraftbuilders:quarry:0>: [
-		format.red("This machine will only work in space! But watch out for a flying car however")
+		format.red("This machine will only work in space!")
 	],
 
 	// Creeping Moss
@@ -591,17 +592,31 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	<abyssalcraft:coraliumore:0>: [
 		format.aqua("Consult Overworld Chapter in Forbidden Knowledge"),
 		format.aqua("in the Necromonicon for more information."),
-		format.aqua("Ore can be found underground Ocean"),
+		format.aqua("Ore can be found underground in Ocean"),
 		format.aqua("and Swamp Biomes")
 	],
 	<abyssalcraft:cpearl:0>: [
 		format.aqua("Consult Overworld Chapter in Forbidden Knowledge"),
 		format.aqua("in the Necromonicon for more information."),
-		format.aqua("Ore can be found underground Ocean"),
+		format.aqua("Ore can be found underground in Ocean"),
 		format.aqua("and Swamp Biomes")
 	],
 	<thebetweenlands:volarkite>: [
 		format.aqua("Glider"),
+	],
+	<rustic:apiary>: [
+		format.red("When bees are inserted this will increase"),
+		format.red("crop growth in a 4 block radius,"),
+		format.red("breeds bees, and creates honeycomb")
+	],
+	<rustic:bee>: [
+		format.red("Found in Rustic Beehives around the world"),
+		format.red("Insert into Rustic Apiary")
+	],
+	<twilightforest:liveroot>: [
+		format.red("Found in Twilight Forest Caves, Worldgen,"),
+		format.red("Twilight Forest Loot Chests,"),
+		format.red("or via Bonsai Trees")
 	]
 };
 
